@@ -14,7 +14,9 @@ VITA 소개
 
 핵심기능
 ---
-![사용](https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/0f4663ac-804a-4e11-b246-8b708afcd294)
+![비타작동](https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/05fc6c98-c049-448a-bc31-2025eaec6374)
+
+
 </BR></BR>
 
 프로젝트에서 역할
