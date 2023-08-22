@@ -31,3 +31,16 @@ VITA 소개
 ---
 - 로그인 기능
 
+<img width="622" alt="로그인" src="https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/a58f4286-c211-41f5-9f50-0e7d69d320a0">
+
+1) 프론트엔드에서 요청 한 JSON 로그인 데이터를 DB와 비교
+2) 로그인 데이터가 일치 시 사용자명과 ID를 세션으로 저장하여 JSON형태로 리턴
+3) 아이디가 맞고 비밀번호가 틀린 경우 '아이디 또는 비밀번호가 올바르지 않습니다' 리턴
+4) DB에 저장된 아이디가 아닐 경우 '존재하지 않는 id입니다' 리턴
+</BR>
+
+-- 게시글 기능
+
+<img width="816" alt="게시글코드" src="https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/4cb9639f-03fd-40dc-9197-18ea23110b1b">
+
+1)
