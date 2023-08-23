@@ -62,7 +62,7 @@ VITA 소개
 DB 설계
 ---
 - ERD 설계
-- 
+
 ![image](https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/82f0830d-296d-4603-ab0d-4d36b919089b)
 </BR></BR>
 
