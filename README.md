@@ -43,4 +43,31 @@ VITA 소개
 
 <img width="816" alt="게시글코드" src="https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/4cb9639f-03fd-40dc-9197-18ea23110b1b">
 
-1)
+1) 프론트엔드에서 id2, title, text를 JSON으로 전달받음
+2) DB에서 id2 값이 같은 유저를 찾음
+3) 해당 유저가 DB에 있을 때 post 테이블에 게시글 저장
+4) JSON으로 response
+</BR>
+
+- 파싱
+
+<img width="490" alt="파싱코드" src="https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/96d9ee94-47b6-4b99-9c70-40420197b948">
+
+1) video 테이블에 video_id 가 같은 지 확인 후 같을 때 챗봇에게 한 질문을 가져옴
+2) 대화에서 첫 질문이 아닐 경우 가져온 질문과 새로운 질문 사이에 "/" 를 추가
+3) 동일한 방식을 답변에 적용
+4) 각각 DB의 question 과 answer 에 저장
+</BR>
+
+DB 설계
+---
+- ERD 설계
+![image](https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/82f0830d-296d-4603-ab0d-4d36b919089b)
+
+- 최종 DB설계
+
+<img width="782" alt="db필드" src="https://github.com/Ruka732/Aivle_School_Bigproject/assets/101920181/1104f211-7280-48b5-8f2c-2f61e5d15bd8">
+
+1) User 엔티티는 Django에서 사용하는 DB SQLite 에 존재하는 User 엔티티에 저장
+2) 나머지 엔티티는 MYSQL 을 Django에 연동 DB 설계
+3) 기존에 있던 Log 엔티티는 POST 엔티티의 answer, question 의 속성에 포함
